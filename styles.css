@@ -47,6 +47,10 @@ body {
     gap: 0.75rem;
 }
 
+.tag, .data, .titulo, .descricao {
+    line-height: 150%;
+}
+
 .tag {
     background-color: var(--amarelo);
     padding: 0.25rem 0.75rem;
@@ -65,7 +69,7 @@ body {
 .titulo {
     font-size: 1.25rem;
     font-weight: 800;
-    color: var(--cinza-escuro);
+    color: var(--cinza-escuro);   
 }
 
 .descricao, footer{
@@ -102,24 +106,13 @@ footer {
 
 @media (min-width: 768px){
     .container{
-        width: 24rem;
+        width: 21rem;
     }
 
     .banner{
         width: 100%;
     }
     
-    .footer_container {
-        width: 100vw;
-    }  
-}
-
-@media (min-width: 1024px){
-    .titulo:hover {
-        color: var(--amarelo);
-        cursor: pointer;
-    }
-
     .tag{
         font-size: 0.875rem;
     }
@@ -134,4 +127,17 @@ footer {
     .descricao{
         font-size: 1rem;
     }
+
+    .footer_container {
+        width: 100vw;
+    }  
+}
+
+@media (min-width: 1024px){
+    .titulo:hover {
+        color: var(--amarelo);
+        cursor: pointer;
+    }
+
+    
 }
