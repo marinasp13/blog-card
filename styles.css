@@ -101,7 +101,22 @@ footer {
 }
 
 @media (min-width: 768px){
+    .container{
+        width: 24rem;
+    }
+
+    .banner{
+        width: 100%;
+    }
+    
     .footer_container {
         width: 100vw;
     }  
+}
+
+@media (min-width: 1024px){
+    .titulo:hover {
+        color: var(--amarelo);
+        cursor: pointer;
+    }
 }
