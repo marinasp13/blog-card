@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/marinasp13/blog-card](https://github.com/marinasp13/blog-card)
+- Live Site URL: [https://marinasp13.github.io/blog-card/](https://marinasp13.github.io/blog-card/)
 
 ## My process
 
